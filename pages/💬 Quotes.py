@@ -186,7 +186,7 @@ with st.form("my form"):
                {name2}  ": Oh no, {name2} in B flat, you're disappointed""")
             if phraseposition == 23:
                 st.markdown(f"""{name1}: "Who tf is burning down my kitchen"  
-                {name2}: "making breakfast for my beautiful partner" """)
+                {name2}: "making breakfast for my beautiful {part_1}" """)
             if phraseposition == 24:
                 st.markdown(f"""{name1}: "I might be stupid...."  
                 {name2}  : "... and?"  {name1}: "That's it" """)
