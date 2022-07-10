@@ -177,15 +177,12 @@ with st.form("my form"):
                     f"""{name1} : "You’ll have a hard time believing this because it never happens, but I made a mistake." """)
 
         if numberpeople == 2:
-            phraseposition = random.randint(21, 35)
+            phraseposition = random.randint(21, 36)
             if phraseposition == 21:
-                st.markdown(f"""{name1}: "You know, not every problem can be solved with a sword"
-               
-               {name2}: "That's why I carry two swords" """)
+                st.markdown(f"""{name1}: "You know, not every problem can be solved with a sword" \n 
+                {name2}: "That's why I carry two swords" """)
             if phraseposition == 22:
-                st.markdown(f"""{name1}: "{name2}..." 
-               
-               {name2}  ": Oh no, {name2} in B flat, you're disappointed""")
+                st.markdown(f"""{name1}: "{name2}..."  \nline {name2}  ": Oh no, {name2} in B flat, you're disappointed""")
             if phraseposition == 23:
                 st.markdown(f"""{name1}: "Who tf is burning down my kitchen"  
                
@@ -268,6 +265,12 @@ with st.form("my form"):
                 kidnappers: but the contact name says "fucking bitch"
                 
                 {name1}: oh my god they have {name2}""")
+            if phraseposition == 36:
+                st.markdown(f"""{name1}: "I love cheating. If you don’t cheat, what the hell is wrong with you?"
+                {name2}: "Have you ever been cheated on?"
+                {name1}: "I forgot some people are in relationships. To clarify, I love to violate academic integrity on tests." """)
+
+            
 
 
         if numberpeople == 3:
@@ -367,7 +370,7 @@ with st.form("my form"):
 
 
         if numberpeople == 5:
-            phraseposition = random.randint(81, 82)
+            phraseposition = random.randint(81, 83)
             if phraseposition == 81:
                 st.markdown(f"""{name1}  ": I'm an idiot."  
                 
@@ -388,6 +391,16 @@ with st.form("my form"):
                 {name3}: "You said "bye {name2}" twice."  
                 
                 {name1}: "I like {name2}."  """)
+            if phraseposition == 83:
+                st.markdown(f"""{name1}: i've done a lot of dumb shit
+                
+                {name2}: i joined you in the dumb shit
+                
+                {name3}: i helped you in the dumb shit
+                
+                {name4}: i recorded the dumb shit
+                
+                {name5}: i TRIED to stop YOU ALL from doing the dumb shit SEVERAL TIMES""")                    
 
         if numberpeople == 6:
             phraseposition = random.randint(101, 103)
