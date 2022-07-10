@@ -191,7 +191,7 @@ with st.form("my form"):
             if phraseposition == 26:
                 st.markdown(f"""{name1}: I hope I don't have to fight my evil shadow self today"  \n {name2}: "hey"  \n {name1}: "no fucking way" """)
             if phraseposition == 27:
-                st.markdown(f"""{name1}: "What is it called when hands are bisexuals?"  \n {name2}: "Ambidextrous?" \n {name1}: "I'm in love with you" """)
+                st.markdown(f"""{name1}: "What is it called when hands are bisexuals?"  \n {name2}: "Ambidextrous?"  \n {name1}: "I'm in love with you" """)
             if phraseposition == 28:
                 st.markdown(f"""{name1} *Watching the news* : "Some idiot tried to fight a squid at the aquarium"  \n {name2}  "*Covered in ink* : "maybe the squid was being a dick" """)
             if phraseposition == 29:
@@ -211,16 +211,16 @@ with st.form("my form"):
                 {name2} *hugs {obj_1} tighter.* \n
                {name1} *giggles.* """)
             if phraseposition == 34:
-                st.markdown(f"""{name1}: "How many kids do you have?" \n
+                st.markdown(f"""{name1}: "How many kids do you have?"  \n
                 {name2}: "Biologically, emotionally, or legally?" """)
             if phraseposition == 35:
-                st.markdown(f"""kidnappers: we have the enemy \n
-                {name1}: but i dont have any enemies \n
-                kidnappers: but the contact name says "fucking bitch"\n
+                st.markdown(f"""kidnappers: we have the enemy  \n
+                {name1}: but i dont have any enemies  \n
+                kidnappers: but the contact name says "fucking bitch"  \n
                 {name1}: oh my god they have {name2}""")
             if phraseposition == 36:
-                st.markdown(f"""{name1}: "I love cheating. If you don’t cheat, what the hell is wrong with you?"\n
-                {name2}: "Have you ever been cheated on?"\n
+                st.markdown(f"""{name1}: "I love cheating. If you don’t cheat, what the hell is wrong with you?"  \n
+                {name2}: "Have you ever been cheated on?"  \n
                 {name1}: "I forgot some people are in relationships. To clarify, I love to violate academic integrity on tests." """)
 
             
