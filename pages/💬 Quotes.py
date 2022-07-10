@@ -179,7 +179,7 @@ with st.form("my form"):
         if numberpeople == 2:
             phraseposition = random.randint(21, 36)
             if phraseposition == 21:
-                st.markdown(f"""{name1}: "You know, not every problem can be solved with a sword" \n {name2}: "That's why I carry two swords" """)
+                st.markdown(f"""{name1}: "You know, not every problem can be solved with a sword"  \n {name2}: "That's why I carry two swords" """)
             if phraseposition == 22:
                 st.markdown(f"""{name1}: "{name2}..."  \n {name2}  ": Oh no, {name2} in B flat, you're disappointed""")
             if phraseposition == 23:
@@ -187,21 +187,21 @@ with st.form("my form"):
             if phraseposition == 24:
                 st.markdown(f"""{name1}: "I might be stupid...."  \n {name2}  : "... and?"  \n {name1}: "That's it" """)
             if phraseposition == 25:
-                st.markdown(f"""{name1} *Accidentally hits {name2} in the face* \n {name1} :*Trying to decide between saying "I'm sorry" or "are you ok"*  \n {name1}: "ARE YOU SORRY?!"  \n {name2}: "What's wrong with you?!" """)
+                st.markdown(f"""{name1} *Accidentally hits {name2} in the face*  \n {name1} :*Trying to decide between saying "I'm sorry" or "are you ok"*  \n {name1}: "ARE YOU SORRY?!"  \n {name2}: "What's wrong with you?!" """)
             if phraseposition == 26:
                 st.markdown(f"""{name1}: I hope I don't have to fight my evil shadow self today"  \n {name2}: "hey"  \n {name1}: "no fucking way" """)
             if phraseposition == 27:
-                st.markdown(f"""{name1}: "What is it called when hands are bisexuals?" \n {name2}: "Ambidextrous?" \n {name1}: "I'm in love with you" """)
+                st.markdown(f"""{name1}: "What is it called when hands are bisexuals?"  \n {name2}: "Ambidextrous?" \n {name1}: "I'm in love with you" """)
             if phraseposition == 28:
-                st.markdown(f"""{name1} *Watching the news* : "Some idiot tried to fight a squid at the aquarium" \n {name2}  "*Covered in ink* : "maybe the squid was being a dick" """)
+                st.markdown(f"""{name1} *Watching the news* : "Some idiot tried to fight a squid at the aquarium"  \n {name2}  "*Covered in ink* : "maybe the squid was being a dick" """)
             if phraseposition == 29:
                 st.markdown(f"""{name1}: You wanna go upstairs?"  \n {name2}: "Sure..."  \n {name1}: "You got protection?" \n {name2}: "Why, what's up there?" """)
             if phraseposition == 30:
                 st.markdown(f"""{name1}: "I need boy advice help!"  \n {name2}: "Kill him" """)
             if phraseposition == 31:
-                st.markdown(f"""{name1}: "heads up: if you try to make a candle with food coloring, the food coloring will just sink to the bottom of the glass, and when the flame eventually reaches the bottom, all the food coloring will catch fire and become one giant tall flame that you cannot possibly blow out and the glass will start to crack and then you'll throw your tea on it in a panic and them the extremely hot food coloring will boil and sizzle horribly and then the glass will shatter." \n {name1}: "trust me on this." \n {name2}: "{name1}, what did you do?" \n {name1}: "a Mistake." """)
+                st.markdown(f"""{name1}: "heads up: if you try to make a candle with food coloring, the food coloring will just sink to the bottom of the glass, and when the flame eventually reaches the bottom, all the food coloring will catch fire and become one giant tall flame that you cannot possibly blow out and the glass will start to crack and then you'll throw your tea on it in a panic and them the extremely hot food coloring will boil and sizzle horribly and then the glass will shatter."  \n {name1}: "trust me on this."  \n {name2}: "{name1}, what did you do?"  \n {name1}: "a Mistake." """)
             if phraseposition == 32:
-                st.markdown(f"""{name1}: "The next person to say ‘weird flex but okay’ is getting a kick to the shin." \n {name2}: "Preposterous boast but alas." """)
+                st.markdown(f"""{name1}: "The next person to say ‘weird flex but okay’ is getting a kick to the shin."  \n {name2}: "Preposterous boast but alas." """)
             if phraseposition == 33:
                 st.markdown(f"""{name1} *tries to focus her magic* \n 
                 {name2} *runs in and hugs {obj_1} from behind* \n 
